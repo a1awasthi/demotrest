@@ -26,7 +26,7 @@ resource networkSecurityGroup 'Microsoft.Network/networkSecurityGroups@2019-11-0
   properties: {
     securityRules: [
       {
-        name: 'ALL_ALLOW_today'
+        name: 'ALL_ALLOW_tomorrow'
         properties: {
           description: 'description'
           protocol: '*'
